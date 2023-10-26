@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.11-slim-bullseye@sha256:d94897d386989dcb59da210cd88e40074bcb6369540ccbf5703d4d684fb71fa8
 
 LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
 
