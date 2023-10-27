@@ -1,5 +1,5 @@
-FROM python@sha256:d94897d386989dcb59da210cd88e40074bcb6369540ccbf5703d4d684fb71fa8
-#python:3.11-slim-bullseye arm64v8
+FROM python:3.11-slim
+
 LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
 
 COPY requirements.txt /tmp/requirements.txt
